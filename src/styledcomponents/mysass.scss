@@ -1,0 +1,49 @@
+$myWidth : 908px;
+$myHeight :  670px;
+
+$mytop-bottom-left-right : 0px;
+
+$myconstant : 10px;
+
+$myMargin : auto;
+
+$myPosition : absolute;
+
+.container {
+	position: $myPosition;
+	width:  $myWidth;
+    ///height: $myHeight;
+    
+    min-height :  700px;
+    
+    border:  1px solid black;
+    
+    
+    
+    ////border-radius:  $myconstant;
+    $myConstant : 5px;
+	padding:  $myconstant;
+    
+    box-sizing: border-box;
+    
+    top:  $mytop-bottom-left-right;
+	bottom: $mytop-bottom-left-right;
+	left:  $mytop-bottom-left-right;
+	right:  $mytop-bottom-left-right;
+    
+    margin : $myMargin;
+}
+
+.score-board{
+
+    $myPosition : relative;
+
+    position : $myPosition;
+
+    $myHeight : 750px;
+
+    height : $myHeight;
+
+    box-sizing : border-box;
+
+}
